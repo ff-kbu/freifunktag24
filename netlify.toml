@@ -1,0 +1,10 @@
+[build]
+command = "hugo"
+publish = "public"
+
+[build.environment]
+HUGO_VERSION = "0.133.0"
+
+[[headers]]
+for = "/*"
+values = { X-Robots-Tag = "noindex" }
