@@ -1,0 +1,201 @@
+/**
+  RESETS
+  see https://www.joshwcomeau.com/css/custom-css-reset/
+ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/**
+  FONTS
+ */
+
+@font-face {
+  font-family: "Alternate Gothic No. 2 BT";
+  src: url('{{ (resources.Get "fonts/alternate-gothic-no2-bt.woff2").RelPermalink }}')
+      format("woff2"),
+    url('{{ (resources.Get "fonts/alternate-gothic-no2-bt.woff").RelPermalink }}')
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/**
+  MAIN STYLES
+ */
+
+:root {
+  --content-max-width: 800px;
+  --content-padding: 1.5rem;
+
+  --color-text: black;
+  --color-text-invert: white;
+  --color-primary: #ffb400;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  /* https://systemfontstack.com/ */
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
+    sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 2rem;
+  margin-bottom: 1.25rem;
+
+  font-family: "Alternate Gothic No. 2 BT";
+  /* letter-spacing: 0.1rem; */
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+main,
+footer {
+  max-width: var(--content-max-width);
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3vw 0;
+  gap: 2rem;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('{{ (((resources.Get "headerbg.jpg").Filter (images.GaussianBlur 6)).Process "fill 800x200 q80").RelPermalink }}');
+  background-size: cover;
+  background-position: center bottom;
+
+  --content-height: 10vw;
+
+  /* hack to make menu float */
+  margin-bottom: -6rem;
+  padding-bottom: 6rem;
+
+  svg {
+    height: var(--content-height);
+    max-height: calc(var(--content-max-width) * 0.1);
+    width: auto;
+  }
+
+  h1 {
+    font-family: "Alternate Gothic No. 2 BT";
+    font-size: var(--content-height);
+    color: var(--color-text-invert);
+
+    @media (min-width: 800px) {
+      font-size: 80px; /* 10% */
+    }
+  }
+}
+
+nav {
+  width: 100%;
+  max-width: var(--content-max-width);
+  padding: 0 var(--content-padding);
+
+  position: sticky;
+  top: 1rem;
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 2rem;
+    row-gap: 0.5rem;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+
+    background-color: white;
+    box-shadow: 0 0 2rem -0.25rem rgba(0, 0, 0, 0.75);
+  }
+
+  li a {
+    color: var(--color-text);
+    text-decoration: none;
+    text-underline-offset: 3px;
+    font-family: "Alternate Gothic No. 2 BT";
+    font-size: 1.5rem;
+
+    &:hover {
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+    }
+  }
+}
+
+main {
+  padding: 0 var(--content-padding);
+}
+
+main ul {
+  list-style: none;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+main a {
+  color: var(--color-primary);
+}

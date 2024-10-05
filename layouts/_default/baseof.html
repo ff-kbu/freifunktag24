@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href='{{ (resources.Get "main.css" | resources.ExecuteAsTemplate "main.css" $ | resources.Minify).RelPermalink }}'
+    />
+    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+  </head>
+  <body>
+    <header>
+      {{ (resources.Get "freifunk-logo.svg" | resources.Minify).Content |
+      safe.HTML }}
+      <h1>Freifunk Tag 2024</h1>
+    </header>
+    {{ with .Params.navigation }}
+    <nav>{{ $.RenderString . }}</nav>
+    {{ end }}
+    <main>{{ block "main" . }}{{ .Content }}{{ end }}</main>
+    <footer>{{ block "footer" . }}{{ end }}</footer>
+  </body>
+</html>
