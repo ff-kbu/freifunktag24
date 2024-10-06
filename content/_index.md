@@ -46,4 +46,25 @@ Schreib uns gerne unter freifunktag@ffkbu.de.
 
 ## Anfahrt
 
-_TBD: Anfahrt zum C4 beschreiben_
+**Adresse:**  
+Chaos Computer Club Cologne e.V. (C4)  
+Heliosstraße 6a  
+50825 Köln, Deutschland
+
+### Mit dem Auto:
+
+**Parken:**  
+Es gibt nur begrenzte Parkmöglichkeiten in der Heliosstraße. Alternativ kannst du in den Seitenstraßen rund um Ehrenfeld nach Parkplätzen suchen.
+
+### Mit öffentlichen Verkehrsmitteln:
+
+**S-Bahn:**  
+Nimm die S-Bahn bis zum Bahnhof **Köln-Ehrenfeld**.  
+Von dort sind es etwa 10 Minuten zu Fuß:  
+- Verlasse den Bahnhof in Richtung **Venloer Straße**.  
+- Gehe links die Venloer Straße entlang, bis du die **Heliosstraße** erreichst, und biege dann rechts ab.
+
+**U-Bahn:**  
+Nimm die **Linien 3 oder 4** und steige an der Station **Venloer Straße/Gürtel** aus.  
+Von dort gehst du etwa 5 Minuten zu Fuß:  
+- Laufe die Venloer Straße entlang (Richtung Norden) und biege dann links in die **Heliosstraße** ein.
