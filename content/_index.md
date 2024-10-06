@@ -4,7 +4,7 @@ title: Freifunk Tag 2024
 
 ## Infos
 
-Der Freifunk Tag ist eine unregelmäßige Veranstaltung im Rheinland um den Austausch und die Vernetzung der lokalen Freifunk Communities zu stärken. Es wird einen Track mit Vorträgen und Raum für Workshops und Vernetzung geben.
+Der Freifunk Tag ist eine unregelmäßige Veranstaltung um den Austausch und die Vernetzung der lokalen Freifunk Communities zu stärken. Es wird einen Track mit Vorträgen und Raum für Workshops und Vernetzung geben.
 
 - **Wann?** Samstag, 23. November 2024 ab 10 Uhr
 - **Wo?** [C4 (Chaos Computer Club Cologne)](https://koeln.ccc.de/), Heliosstr. 6a, 50825 Köln ([Anfahrt](#anfahrt))
@@ -27,7 +27,7 @@ Sehr gerne sogar! Die Veranstaltung ist öffentlich und Interessierte sind herzl
 
 **Gibt es Verpflegung während der Veranstaltung?**
 
-Der C4 bietet Softdrinks mit und ohne Koffein, sowie Kaffee, an. Ob es Essen geben wird ist noch unklar. Wenn du bei einer KüFa helfen willst, melde dich bei uns.
+Der C4 bietet Softdrinks mit und ohne Koffein an. Ob es Essen geben wird ist noch unklar. Wenn du bei einer KüFa helfen willst, melde dich bei uns. Eventuell bestellen wir uns auch einfach eine Pizza! <3
 
 **Was ist der Hashtag?**
 
@@ -53,7 +53,7 @@ Es gibt nur begrenzte Parkmöglichkeiten in der Heliosstraße. Alternativ kannst
 
 **S-Bahn:**
 Nimm die S-Bahn bis zum Bahnhof **Köln-Ehrenfeld**.
-Von dort sind es etwa 10 Minuten zu Fuß:
+Von dort sind es etwa 5 Minuten zu Fuß:
 
 - Verlasse den Bahnhof in Richtung **Venloer Straße**.
 - Gehe links die Venloer Straße entlang, bis du die **Heliosstraße** erreichst, und biege dann rechts ab.
