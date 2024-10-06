@@ -14,3 +14,8 @@ main:
   - name: Code of Conduct
     url: /#
     weight: 50
+footer:
+  - name: Impressum
+    pageRef: impressum
+  - name: Datenschutz
+    url: https://kbu.freifunk.net/datenschutz/

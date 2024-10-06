@@ -74,6 +74,8 @@ h6 {
   --color-text: black;
   --color-text-invert: white;
   --color-primary: #ffb400;
+  --color-secondary: #dc0067;
+  --color-ternary: #009ee0;
 }
 
 body {
@@ -81,6 +83,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+  min-height: 100vh;
 
   /* https://systemfontstack.com/ */
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
@@ -145,26 +148,33 @@ header {
   }
 }
 
-nav {
+body > nav {
   max-width: var(--content-max-width);
   padding: 0 var(--content-padding);
 
   position: sticky;
   top: 1rem;
 
+  font-size: 1.5rem;
+
+  ul {
+    justify-content: center;
+    border-radius: 0.5rem;
+
+    background-color: white;
+    box-shadow: 0 0 2rem -0.25rem rgba(0, 0, 0, 0.75);
+  }
+}
+
+nav {
   ul {
     list-style: none;
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     column-gap: 2rem;
     row-gap: 0.5rem;
     padding: 0.75rem 1.75rem;
-    border-radius: 0.5rem;
-
-    background-color: white;
-    box-shadow: 0 0 2rem -0.25rem rgba(0, 0, 0, 0.75);
   }
 
   li a {
@@ -172,7 +182,6 @@ nav {
     text-decoration: none;
     text-underline-offset: 3px;
     font-family: "Alternate Gothic No. 2 BT";
-    font-size: 1.5rem;
 
     &:hover {
       text-decoration: underline;
@@ -196,4 +205,22 @@ main ul {
 
 main a {
   color: var(--color-primary);
+}
+
+footer {
+  width: 100%;
+  margin-top: auto;
+  padding: 4rem var(--content-padding) 0;
+
+  nav {
+    border-top: 0.25rem solid var(--color-secondary);
+    padding: 1rem 0;
+    font-size: 1.25rem;
+
+    ul {
+      list-style: none;
+      padding: 0;
+      justify-content: flex-end;
+    }
+  }
 }

@@ -18,6 +18,9 @@
     {{ with .Site.Menus.main }} {{ partial "menu.html" (dict "Items" . "Label"
     "Hauptnavigation") }} {{ end }}
     <main>{{ block "main" . }}{{ .Content }}{{ end }}</main>
-    <footer>{{ block "footer" . }}{{ end }}</footer>
+    <footer>
+      {{ with .Site.Menus.footer }} {{ partial "menu.html" (dict "Items" .) }}
+      {{ end }}
+    </footer>
   </body>
 </html>
