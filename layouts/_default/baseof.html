@@ -15,9 +15,8 @@
       safe.HTML }}
       <h1>Freifunk Tag 2024</h1>
     </header>
-    {{ with .Params.navigation }}
-    <nav>{{ $.RenderString . }}</nav>
-    {{ end }}
+    {{ with .Site.Menus.main }} {{ partial "menu.html" (dict "Items" . "Label"
+    "Hauptnavigation") }} {{ end }}
     <main>{{ block "main" . }}{{ .Content }}{{ end }}</main>
     <footer>{{ block "footer" . }}{{ end }}</footer>
   </body>

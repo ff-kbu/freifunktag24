@@ -1,0 +1,16 @@
+main:
+  - name: Infos
+    url: /#infos
+    weight: 10
+  - name: Anmelden
+    url: https://pretix.ffkbu.de/ffkbu/fftag/
+    weight: 20
+  - name: CfP
+    url: https://pretalx.ffkbu.de/freifunktag-2024/cfp
+    weight: 20
+  - name: FAQ
+    url: /#oft-gefragt-faq
+    weight: 30
+  - name: Code of Conduct
+    url: /#
+    weight: 50

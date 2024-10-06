@@ -1,0 +1,7 @@
+<nav {{ with .Label }}aria-label="{{ . }}" {{ end }}>
+  <ul>
+    {{ range .Items }}
+    <li><a href="{{ .URL }}">{{ .Name }} </a></li>
+    {{ end }}
+  </ul>
+</nav>

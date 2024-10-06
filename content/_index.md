@@ -1,12 +1,5 @@
 ---
 title: Freifunk Tag 2024
-params:
-  navigation: | # this is markdown, not yaml
-    - [Infos](/#infos)
-    - [Anmelden](https://pretix.ffkbu.de/ffkbu/fftag/)
-    - [CfP](https://pretalx.ffkbu.de/freifunktag-2024/cfp)
-    - [FAQ](/#oft-gefragt-faq)
-    - [Code of Conduct](/#)
 ---
 
 ## Infos
