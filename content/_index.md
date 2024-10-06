@@ -14,7 +14,7 @@ params:
 Der Freifunk Tag ist eine unregelmäßige Veranstaltung im Rheinland um den Austausch und die Vernetzung der lokalen Freifunk Communities zu stärken. Es wird einen Track mit Vorträgen und Raum für Workshops und Vernetzung geben.
 
 - **Wann?** Samstag, 23. November 2024 ab 10 Uhr
-- **Wo?** C4 (Chaos Computer Club Cologne), Heliosstr. 6a, 50825 Köln ([Anfahrt](#anfahrt))
+- **Wo?** [C4 (Chaos Computer Club Cologne)](https://koeln.ccc.de/), Heliosstr. 6a, 50825 Köln ([Anfahrt](#anfahrt))
 
 ### Anmeldung
 
