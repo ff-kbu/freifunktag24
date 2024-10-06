@@ -24,7 +24,7 @@ Wenn ihr kommen wollt, meldet euch bitte hier an, damit wir einen Überblick üb
 
 Ab sofort suchen wir nach Vorträgen und Workshops. Wir freuen uns über eure Erfahrungen aus den lokalen Communities und andere Themen, die von Bedeutung für Freifunk sind.
 
-Einreichungen zum Programm nehmen wir hier entgegen: \<CfP Link\>
+Einreichungen zum Programm nehmen wir hier entgegen: https://pretalx.ffkbu.de/freifunktag-2024/cfp
 
 ## Oft gefragt (FAQ)
 
