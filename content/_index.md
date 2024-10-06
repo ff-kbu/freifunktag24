@@ -35,6 +35,10 @@ Ob es Essen geben wird ist noch unklar. Wenn du bei einer KüFa helfen willst, m
 
 Wir werden versuchen, Schlafplätze zu organisieren. Bitte gebt bei der Anmeldung an, wenn ihr Bedarf an einem Schlafplatz habt. Gegebenenfalls müsst ihr eine Isomatte und einen Schlafsack mitbringen. Wir informieren euch rechtzeitig per E-Mail über Möglichkeiten.
 
+**Wie kann ich mich mit anderen Teilnehmer\*innen austauschen?**
+
+Es gibt einen Matrix-Raum zum Austausch vor, während und nach der Veranstaltung: [`#fftag24:systemli.org`](https://matrix.to/#/#fftag24:systemli.org)
+
 **Was ist der Hashtag?**
 
 Ihr könnt eure Posts im Fediverse gerne mit `#fftag24` taggen.
