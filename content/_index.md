@@ -29,6 +29,10 @@ Sehr gerne sogar! Die Veranstaltung ist öffentlich und Interessierte sind herzl
 
 Der C4 bietet Softdrinks mit und ohne Koffein an. Ob es Essen geben wird ist noch unklar. Wenn du bei einer KüFa helfen willst, melde dich bei uns. Eventuell bestellen wir uns auch einfach eine Pizza! <3
 
+**Wird es Schlafplätze für Teilnehmer\*innen geben?**
+
+Wir werden versuchen, Schlafplätze zu organisieren. Bitte gebt bei der Anmeldung an, wenn ihr Bedarf an einem Schlafplatz habt. Gegebenenfalls müsst ihr eine Isomatte und einen Schlafsack mitbringen. Wir informieren euch rechtzeitig per E-Mail über Möglichkeiten.
+
 **Was ist der Hashtag?**
 
 Ihr könnt eure Posts im Fediverse gerne mit `#fftag24` taggen.
