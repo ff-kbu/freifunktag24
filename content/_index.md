@@ -27,7 +27,9 @@ Sehr gerne sogar! Die Veranstaltung ist öffentlich und Interessierte sind herzl
 
 **Gibt es Verpflegung während der Veranstaltung?**
 
-Der C4 bietet Softdrinks mit und ohne Koffein an. Ob es Essen geben wird ist noch unklar. Wenn du bei einer KüFa helfen willst, melde dich bei uns. Eventuell bestellen wir uns auch einfach eine Pizza! <3
+Der C4 bietet Softdrinks mit und ohne Koffein an.
+
+Ob es Essen geben wird ist noch unklar. Wenn du bei einer KüFa helfen willst, melde dich bei uns. Eventuell bestellen wir uns auch einfach eine Pizza oder holen Falafel! <3
 
 **Wird es Schlafplätze für Teilnehmer\*innen geben?**
 
