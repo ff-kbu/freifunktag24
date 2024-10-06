@@ -18,7 +18,7 @@ Der Freifunk Tag ist eine unregelmäßige Veranstaltung im Rheinland um den Aust
 
 ### Anmeldung
 
-Wenn ihr kommen wollt, meldet euch bitte hier an, damit wir einen Überblick über die Teilnehmer\*innen-Zahl haben: \<PRETIX LINK\>
+Wenn ihr kommen wollt, meldet euch bitte hier an, damit wir einen Überblick über die Teilnehmer\*innen-Zahl haben: https://pretix.ffkbu.de/ffkbu/fftag/
 
 ## CfP: Reicht eure Vorträge und Workshops ein!
 
