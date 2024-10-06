@@ -1,0 +1,8 @@
+baseURL: /
+languageCode: de-de
+title: Freifunk Tag 2024
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
