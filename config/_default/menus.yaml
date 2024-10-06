@@ -15,7 +15,17 @@ main:
     url: /#
     weight: 50
 footer:
+  - name: Matrix
+    url: https://matrix.to/#/#fftag24:systemli.org
+    weight: 10
+  - name: E-Mail
+    url: mailto:freifunktag@ffkbu.de
+    weight: 10
   - name: Impressum
     pageRef: impressum
+    weight: 50
+    params: { offset: true }
   - name: Datenschutz
     url: https://kbu.freifunk.net/datenschutz/
+    weight: 50
+    params: { offset: true }

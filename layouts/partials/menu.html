@@ -1,7 +1,9 @@
 <nav {{ with .Label }}aria-label="{{ . }}" {{ end }}>
   <ul>
     {{ range .Items }}
-    <li><a href="{{ .URL }}">{{ .Name }} </a></li>
+    <li class="{{ if .Params.offset }}offset{{ end }}">
+      <a href="{{ .URL }}">{{ .Name }} </a>
+    </li>
     {{ end }}
   </ul>
 </nav>
