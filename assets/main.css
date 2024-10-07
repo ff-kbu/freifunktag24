@@ -119,11 +119,10 @@ footer {
 
 header {
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 3vw 0;
-  gap: 2rem;
+
+  /* hack to make menu float */
+  margin-bottom: calc(var(--sticky-header-height) * -1);
+  padding-bottom: var(--sticky-header-height);
 
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url('{{ (((resources.Get "headerbg.jpg").Filter (images.GaussianBlur 6)).Process "fill 800x200 q80").RelPermalink }}');
@@ -132,9 +131,14 @@ header {
 
   --content-height: 10vw;
 
-  /* hack to make menu float */
-  margin-bottom: calc(var(--sticky-header-height) * -1);
-  padding-bottom: var(--sticky-header-height);
+  > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3vw 0;
+    gap: 2rem;
+    text-decoration: none;
+  }
 
   svg {
     height: var(--content-height);

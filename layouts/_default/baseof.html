@@ -11,9 +11,11 @@
   </head>
   <body class="kind-{{ .Kind }}">
     <header>
-      {{ (resources.Get "freifunk-logo.svg" | resources.Minify).Content |
-      safe.HTML }}
-      <h1>Freifunk Tag 2024</h1>
+      <a href="/" title="Zur Startseite">
+        {{ (resources.Get "freifunk-logo.svg" | resources.Minify).Content |
+        safe.HTML }}
+        <h1>Freifunk Tag 2024</h1>
+      </a>
     </header>
     {{ with .Site.Menus.main }} {{ partial "menu.html" (dict "Items" . "Label"
     "Hauptnavigation") }} {{ end }}
