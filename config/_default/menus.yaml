@@ -12,7 +12,7 @@ main:
     url: /#oft-gefragt-faq
     weight: 30
   - name: Code of Conduct
-    url: /#
+    pageRef: code-of-conduct
     weight: 50
 footer:
   - name: Matrix
