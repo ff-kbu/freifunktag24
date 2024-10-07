@@ -194,7 +194,7 @@ main {
   padding: 0 var(--content-padding);
 }
 
-main ul {
+.kind-home main ul {
   list-style: none;
   padding: 0;
 
