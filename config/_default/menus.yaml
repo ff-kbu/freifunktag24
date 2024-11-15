@@ -2,6 +2,9 @@ main:
   - name: Infos
     url: /#infos
     weight: 10
+  - name: Programm
+    url: https://pretalx.ffkbu.de/freifunktag-2024/schedule/
+    weight: 15
   - name: Anmelden
     url: https://pretix.ffkbu.de/ffkbu/fftag/
     weight: 20
