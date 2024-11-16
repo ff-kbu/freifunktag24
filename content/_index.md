@@ -9,15 +9,13 @@ Der Freifunk Tag ist eine unregelmäßige Veranstaltung um den Austausch und die
 - **Wann?** Samstag, 23. November 2024 ab 10 Uhr
 - **Wo?** [C4 (Chaos Computer Club Cologne)](https://koeln.ccc.de/), Heliosstr. 6a, 50825 Köln ([Anfahrt](#anfahrt))
 
+### Programm
+
+Das aktuelle Programm könnt ihr hier einsehen: https://pretalx.ffkbu.de/freifunktag-2024/schedule/
+
 ### Anmeldung
 
 Wenn ihr kommen wollt, meldet euch bitte hier an, damit wir einen Überblick über die Teilnehmer\*innen-Zahl haben: https://pretix.ffkbu.de/ffkbu/fftag/
-
-## CfP: Reicht eure Vorträge und Workshops ein!
-
-Ab sofort suchen wir nach Vorträgen und Workshops. Wir freuen uns über eure Erfahrungen aus den lokalen Communities und andere Themen, die von Bedeutung für Freifunk sind.
-
-Einreichungen zum Programm nehmen wir hier entgegen: https://pretalx.ffkbu.de/freifunktag-2024/cfp
 
 ## Oft gefragt (FAQ)
 
