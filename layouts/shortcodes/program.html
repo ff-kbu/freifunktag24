@@ -1,0 +1,21 @@
+{{ $scheduleInfo := resources.GetRemote (.Get "src") | transform.Unmarshal }}
+
+{{ range $scheduleInfo.rooms }}
+<h3>{{ .name.de }}</h3>
+<p>
+  <ul>
+    {{ range where $scheduleInfo.talks "room" .id }}
+    <li>
+      <code>{{ (time .start).Local | dateFormat ":time_short" }}</code> -
+      {{ if reflect.IsMap .title }}<em>{{ index .title "de" }}</em>{{ else }}{{ .title }}{{ end }}
+      {{ if .speakers }}
+        {{ $presenters := apply .speakers "where" $scheduleInfo.speakers "code" "." }}
+        {{ $presenters := apply $presenters "index" "." 0 }}
+        {{ $presenters := apply $presenters "index" "." "name" }}
+        ({{ delimit $presenters ", " }})
+      {{ end }}
+    </li>
+    {{ end }}
+  </ul>
+</p>
+{{ end }}
