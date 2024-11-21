@@ -1,5 +1,6 @@
 baseURL: /
 languageCode: de-de
+defaultContentLanguage: de
 title: Freifunk Tag 2024
 
 markup:
